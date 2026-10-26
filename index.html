@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#174b35">
+  <meta name="description" content="PureDrop Dairy — fresh milk, curd, paneer, desi ghee, butter and lassi. Contact us to order on WhatsApp.">
+  <title>PureDrop Dairy | Freshness You Can Trust</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header" id="home">
+    <nav class="navbar container">
+      <a href="#home" class="brand" aria-label="PureDrop Dairy home">
+        <span class="brand-icon">❋</span>
+        <span>PureDrop <small>DAIRY</small></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#quality">Our Quality</a>
+        <a href="#contact">Contact</a>
+        <a href="#order" class="nav-order">Order Now ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content container">
+        <span class="eyebrow">FRESH • NATURAL • EVERYDAY</span>
+        <h1>Goodness of Dairy.<br><span>Love in Every Drop.</span></h1>
+        <p>
+          Bringing the goodness of everyday dairy to your home.
+          Explore our milk, curd, paneer, ghee and more.
+        </p>
+        <div class="hero-buttons">
+          <a href="#products" class="btn btn-primary">Explore Products ↓</a>
+          <a href="#order" class="btn btn-outline">Order Fresh Dairy</a>
+        </div>
+        <div class="hero-note">🌿 Everyday dairy goodness for your family</div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container benefit-grid">
+        <div><span>🥛</span><p>Everyday Dairy</p></div>
+        <div><span>🌿</span><p>Quality Focused</p></div>
+        <div><span>🏡</span><p>Made for Your Home</p></div>
+        <div><span>📲</span><p>Easy WhatsApp Orders</p></div>
+      </div>
+    </section>
+
+    <section class="section container" id="products">
+      <div class="section-heading">
+        <span class="eyebrow">OUR DAIRY COLLECTION</span>
+        <h2>Fresh Picks for <span>Your Family</span></h2>
+        <p>Choose your favourite dairy essentials and place your order directly.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=700&q=85"
+            alt="Fresh milk in a glass" loading="lazy">
+          <div class="product-info">
+            <span class="product-tag">DAILY ESSENTIAL</span>
+            <h3>Fresh Milk</h3>
+            <p>Fresh milk for your everyday routine.</p>
+            <div class="product-bottom">
+              <div class="price">₹30 <small>/ 500 ml</small></div>
+              <button class="btn btn-small order-product" data-product="Fresh Milk">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=700&q=85"
+            alt="Fresh creamy curd" loading="lazy">
+          <div class="product-info">
+            <span class="product-tag">FAMILY FAVOURITE</span>
+            <h3>Fresh Curd</h3>
+            <p>A versatile dairy essential for your meals.</p>
+            <div class="product-bottom">
+              <div class="price">₹40 <small>/ 500 g</small></div>
+              <button class="btn btn-small order-product" data-product="Fresh Curd">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=700&q=85"
+            alt="Paneer pieces prepared for cooking" loading="lazy">
+          <div class="product-info">
+            <span class="product-tag">KITCHEN FAVOURITE</span>
+            <h3>Fresh Paneer</h3>
+            <p>Perfect for curries, snacks and family meals.</p>
+            <div class="product-bottom">
+              <div class="price">₹80 <small>/ 200 g</small></div>
+              <button class="btn btn-small order-product" data-product="Fresh Paneer">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1600788886242-5c96aabe3757?auto=format&fit=crop&w=700&q=85"
+            alt="Butter served in a bowl" loading="lazy">
+          <div class="product-info">
+            <span class="product-tag">DAIRY CLASSIC</span>
+            <h3>Butter</h3>
+            <p>A delicious addition to toast and recipes.</p>
+            <div class="product-bottom">
+              <div class="price">₹60 <small>/ 100 g</small></div>
+              <button class="btn btn-small order-product" data-product="Butter">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&w=700&q=85"
+            alt="Golden desi ghee" loading="lazy">
+          <div class="product-info">
+            <span class="product-tag">TRADITIONAL PICK</span>
+            <h3>Desi Ghee</h3>
+            <p>A traditional favourite for everyday cooking.</p>
+            <div class="product-bottom">
+              <div class="price">₹350 <small>/ 500 ml</small></div>
+              <button class="btn btn-small order-product" data-product="Desi Ghee">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1553787499-6f9133860278?auto=format&fit=crop&w=700&q=85"
+            alt="Refreshing dairy drink" loading="lazy">
+          <div class="product-info">
+            <span class="product-tag">REFRESHING PICK</span>
+            <h3>Lassi</h3>
+            <p>A refreshing dairy drink to enjoy with your meal.</p>
+            <div class="product-bottom">
+              <div class="price">₹30 <small>/ 250 ml</small></div>
+              <button class="btn btn-small order-product" data-product="Lassi">Order</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <p class="price-note">
+        Note: Prices shown are sample prices. Confirm availability and final prices on WhatsApp.
+      </p>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-art">
+          <div class="about-circle">
+            <span class="big-drop">◈</span>
+            <strong>PUREDROP</strong>
+            <small>DAIRY GOODNESS</small>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="eyebrow">A LITTLE ABOUT US</span>
+          <h2>Everyday Dairy, <span>Made Simple.</span></h2>
+          <p>
+            At PureDrop Dairy, we believe dairy essentials should be easy
+            to order and simple to enjoy. Our collection brings together
+            everyday favourites for your kitchen.
+          </p>
+          <p>
+            Browse our products, ask about availability and connect with us
+            directly to place your order.
+          </p>
+          <a href="#contact" class="btn btn-primary">Get in Touch ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="quality">
+      <div class="section-heading">
+        <span class="eyebrow">WHY PUREDROP?</span>
+        <h2>Quality Comes <span>First</span></h2>
+        <p>We want every customer to order with confidence.</p>
+      </div>
+
+      <div class="quality-grid">
+        <article class="quality-card">
+          <span>🥛</span>
+          <h3>Daily Essentials</h3>
+          <p>Dairy favourites for your everyday meals and recipes.</p>
+        </article>
+        <article class="quality-card">
+          <span>💚</span>
+          <h3>Customer First</h3>
+          <p>Contact us directly for product information and availability.</p>
+        </article>
+        <article class="quality-card">
+          <span>📱</span>
+          <h3>Easy Ordering</h3>
+          <p>Send your product selection through WhatsApp in a few clicks.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="order-section" id="order">
+      <div class="container order-grid">
+        <div class="order-copy">
+          <span class="eyebrow">QUICK & EASY</span>
+          <h2>Place Your <span>Dairy Order</span></h2>
+          <p>
+            Select a product, enter the quantity and your details.
+            Your order summary will open in WhatsApp for you to send.
+          </p>
+          <div class="order-promise">✓ Simple ordering &nbsp; ✓ Direct contact</div>
+        </div>
+
+        <form id="orderForm" class="order-form">
+          <label for="customerName">Your Name</label>
+          <input id="customerName" name="customerName" type="text"
+            placeholder="Enter your name" required maxlength="80">
+
+          <label for="customerPhone">Your Phone Number</label>
+          <input id="customerPhone" name="customerPhone" type="tel"
+            placeholder="Enter your phone number" required
+            pattern="[0-9+\-\s]{10,16}" maxlength="16">
+
+          <label for="productSelect">Choose Product</label>
+          <select id="productSelect" name="product" required>
+            <option value="">Select a product</option>
+            <option>Fresh Milk</option>
+            <option>Fresh Curd</option>
+            <option>Fresh Paneer</option>
+            <option>Butter</option>
+            <option>Desi Ghee</option>
+            <option>Lassi</option>
+          </select>
+
+          <label for="quantity">Quantity</label>
+          <input id="quantity" name="quantity" type="number"
+            min="1" max="100" value="1" required>
+
+          <label for="customerAddress">Delivery Address / Area</label>
+          <textarea id="customerAddress" name="address"
+            placeholder="Enter your area or delivery address" rows="3"
+            required maxlength="300"></textarea>
+
+          <label for="orderNotes">Additional Note (optional)</label>
+          <textarea id="orderNotes" name="notes"
+            placeholder="Any special request?" rows="2" maxlength="300"></textarea>
+
+          <button type="submit" class="btn btn-primary form-submit">
+            Send Order on WhatsApp ↗
+          </button>
+          <p class="form-note">Your WhatsApp app will open so you can review and send your order.</p>
+          <p id="formMessage" class="form-message" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact-section section container" id="contact">
+      <div class="section-heading">
+        <span class="eyebrow">WE'RE HERE TO HELP</span>
+        <h2>Let's <span>Connect</span></h2>
+        <p>Ask us about products, prices, availability and delivery in your area.</p>
+      </div>
+
+      <div class="contact-grid">
+        <a class="contact-card" href="https://wa.me/918872987702"
+          target="_blank" rel="noopener noreferrer">
+          <span>💬</span>
+          <h3>WhatsApp Us</h3>
+          <p>+91 88729 87702</p>
+          <strong>Chat Now ↗</strong>
+        </a>
+
+        <a class="contact-card" href="tel:+918872987702">
+          <span>📞</span>
+          <h3>Call Us</h3>
+          <p>+91 88729 87702</p>
+          <strong>Call Now ↗</strong>
+        </a>
+
+        <div class="contact-card">
+          <span>📦</span>
+          <h3>Delivery Details</h3>
+          <p>Ask us whether delivery is available in your area.</p>
+          <a href="https://wa.me/918872987702?text=Hello%20PureDrop%20Dairy%2C%20please%20tell%20me%20about%20delivery%20availability."
+            target="_blank" rel="noopener noreferrer"><strong>Ask Us ↗</strong></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container final-cta-inner">
+        <div>
+          <h2>Your Dairy Favourites Are Just a Message Away.</h2>
+          <p>Contact PureDrop Dairy on WhatsApp to get started.</p>
+        </div>
+        <a class="btn btn-light"
+          href="https://wa.me/918872987702?text=Hello%20PureDrop%20Dairy%2C%20I%20would%20like%20to%20place%20an%20order."
+          target="_blank" rel="noopener noreferrer">Order on WhatsApp ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="brand footer-brand">
+        <span class="brand-icon">❋</span>
+        <span>PureDrop <small>DAIRY</small></span>
+      </a>
+      <p>Freshness you can trust, every day.</p>
+      <p>© <span id="currentYear"></span> PureDrop Dairy. All rights reserved.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/918872987702"
+    target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    WA
+  </a>
+</body>
+</html>
